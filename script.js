@@ -43,7 +43,7 @@ window.onload = function () {
   document.getElementById("playMusic").addEventListener("click", function () {
     document.getElementById("birthdaySong").play();
     canvas.style.display = "block"; // Zeige das Konfetti an
-    
+
     document.getElementById("age").style.display = "block";
 
     animateConfetti();
